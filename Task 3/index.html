@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/0dc9a69d8b.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+    <div class="container-flued">
+
+        <div class="row">
+
+            <div class="col" style="width: 250px;">
+
+                <div class="d-flex justify-content-between p-4 " style="background-color: rgb(212, 171, 171);">
+                    <p>Incomplete</p>
+                    <p class="border border-0">0</p>
+                </div>
+                <div class="container" style="height: 500px; overflow-y: scroll;">
+                    <div class="row">
+
+                        <div class="border border-1 p-2" id="user-info">
+
+                            <div class="d-flex justify-content-between">
+                                <div class="d-flex">
+                                    <img class='profile-img rounded-circle'
+                                        src="./ethan-hoover-0YHIlxeCuhg-unsplash.jpg" alt="fg" />
+                                    <p class="my-1">Client Name</p>
+                                </div>
+                                <div class="d-flex">
+                                    <img class='profile-img rounded-circle'
+                                        src="./ethan-hoover-0YHIlxeCuhg-unsplash.jpg" alt="fg" />
+                                    <p class="my-1">Sadik Istiak</p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex justify-content-between p-2">
+                                <div>
+                                    <i class="fa-sharp fa-solid fa-circle-half-stroke" id="icons-file"></i>
+
+                                </div>
+                                <div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                </div>
+                                <div class="d-flex justify-content-start ">
+                                    <i class="fa-sharp fa-solid fa-tree" id="icons-file"></i>
+                                    <p class="left-sizing">12</p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex justify-content-between ">
+                                <div>
+                                    <img class='profile-img rounded-circle'
+                                        src="./ethan-hoover-0YHIlxeCuhg-unsplash.jpg" alt="fg" />
+                                </div>
+                                <div class="left-sizing">
+                                    <img class='profile-img rounded-circle'
+                                        src="./ethan-hoover-0YHIlxeCuhg-unsplash.jpg" alt="fg" />
+                                </div>
+                                <div class="left-sizing rounded-circle">
+                                    <p class="text-bg-secondary rounded-circle h-90" id="need-active"></p>
+                                </div>
+                                <div class="d-flex left-sizing">
+                                    <i class="fa-sharp fa-solid fa-comments"></i>
+                                    <p class="left-sizing " id="chat-active"></p>
+                                </div>
+
+
+
+
+                                <div class="d-flex left-sizing pointer">
+
+                                    <button class="open-modal" data-target="#modal-1"><i
+                                            class="fa-sharp fa-solid fa-paperclip"></i></button>
+
+                                    <p class="left-sizing" id="attachments-active"></p>
+                                </div>
+                                <div class="d-flex left-sizing">
+                                    <i class="fa-sharp fa-solid fa-calendar"></i>
+                                    <p class="left-sizing">12-2-22</p>
+                                </div>
+
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+
+
+
+
+        </div>
+
+    </div>
+    </div>
+
+
+    <!-- Attachment  -->
+    <div id="modal-1" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Modal Attachment Content Here</p>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="./script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
